@@ -454,63 +454,107 @@ input[type="range"] {
   .input--error:focus {
     border-color: #ca4829; }
 
-h1, h2, h3, h4, h5, h6,
-.h1, .h2, .h3, .h4, .h5, .h6,
-.giga, .mega, .kilo {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.giga,
+.mega,
+.kilo {
   color: #1eaf4e;
   font-family: "brandon-grotesque", "Helvetica", "Arial", sans-serif;
   line-height: 1.25em;
   text-transform: uppercase; }
   h1 small,
-  h1 .small, h2 small,
-  h2 .small, h3 small,
-  h3 .small, h4 small,
-  h4 .small, h5 small,
-  h5 .small, h6 small,
+  h1 .small,
+  h2 small,
+  h2 .small,
+  h3 small,
+  h3 .small,
+  h4 small,
+  h4 .small,
+  h5 small,
+  h5 .small,
+  h6 small,
   h6 .small,
   .h1 small,
-  .h1 .small, .h2 small,
-  .h2 .small, .h3 small,
-  .h3 .small, .h4 small,
-  .h4 .small, .h5 small,
-  .h5 .small, .h6 small,
+  .h1 .small,
+  .h2 small,
+  .h2 .small,
+  .h3 small,
+  .h3 .small,
+  .h4 small,
+  .h4 .small,
+  .h5 small,
+  .h5 .small,
+  .h6 small,
   .h6 .small,
   .giga small,
-  .giga .small, .mega small,
-  .mega .small, .kilo small,
+  .giga .small,
+  .mega small,
+  .mega .small,
+  .kilo small,
   .kilo .small {
     color: #A2A2A2;
     font-weight: lighter;
     vertical-align: 0; }
 
-h1, h2, h3,
-.h1, .h2, .h3,
-.giga, .mega, .kilo {
-  margin: 20px 0 10px; }
+h1,
+h2,
+h3,
+.h1,
+.h2,
+.h3,
+.giga,
+.mega,
+.kilo {
+  margin: 0; }
   h1 small,
-  h1 .small, h2 small,
-  h2 .small, h3 small,
+  h1 .small,
+  h2 small,
+  h2 .small,
+  h3 small,
   h3 .small,
   .h1 small,
-  .h1 .small, .h2 small,
-  .h2 .small, .h3 small,
+  .h1 .small,
+  .h2 small,
+  .h2 .small,
+  .h3 small,
   .h3 .small,
   .giga small,
-  .giga .small, .mega small,
-  .mega .small, .kilo small,
+  .giga .small,
+  .mega small,
+  .mega .small,
+  .kilo small,
   .kilo .small {
     font-size: 65%; }
 
-h4, h5, h6,
-.h4, .h5, .h6 {
+h4,
+h5,
+h6,
+.h4,
+.h5,
+.h6 {
   margin: 10px 0; }
   h4 small,
-  h4 .small, h5 small,
-  h5 .small, h6 small,
+  h4 .small,
+  h5 small,
+  h5 .small,
+  h6 small,
   h6 .small,
   .h4 small,
-  .h4 .small, .h5 small,
-  .h5 .small, .h6 small,
+  .h4 .small,
+  .h5 small,
+  .h5 .small,
+  .h6 small,
   .h6 .small {
     font-size: 75%; }
 
@@ -545,7 +589,10 @@ h4,
 
 h5,
 .h5 {
-  font-size: 1em; }
+  font-size: 1em;
+  text-transform: none;
+  color: #A2A2A2;
+  font-weight: normal; }
 
 h6,
 .h6 {
