@@ -50,7 +50,7 @@ template,
   box-sizing: border-box;
   color: #333333;
   cursor: default;
-  font-family: "brandon-grotesque", "Helvetica", "Arial", sans-serif;
+  font-family: "ff-tisa-web-pro", "Georgia", "Times", serif;
   font-size: 14px;
   line-height: 1.5;
   text-rendering: optimizeLegibility;
@@ -1954,8 +1954,28 @@ ol.dropdown-content {
   transform: translateX(8px); }
 
 svg {
-  margin: 40px 0; }
+  margin-top: 40px;
+  margin-bottom: 20px; }
 
 [row] {
   margin-top: 30px;
   margin-bottom: 30px; }
+
+a.map-link {
+  font-family: "brandon-grotesque", "Helvetica", "Arial", sans-serif; }
+
+hr {
+  margin: 5em 0em; }
+
+.disclaimer {
+  margin-top: 2em; }
+
+.map {
+  height: 450px;
+  margin-bottom: 1em; }
+
+a.contact {
+  border-bottom: 1px solid #000; }
+
+.siteFooter {
+  text-align: center; }
