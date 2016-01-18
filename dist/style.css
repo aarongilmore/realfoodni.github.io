@@ -1992,7 +1992,7 @@ hr {
   width: 100%;
   margin-bottom: 1em; }
 
-a.contact {
+a.main-link {
   border-bottom: 1px solid #000; }
 
 .siteFooter {
@@ -2011,6 +2011,3 @@ a.contact {
 
 .siteFooter {
   padding: 2em 0em; }
-
-.siteFooter a {
-  color: #1eaf4e; }
